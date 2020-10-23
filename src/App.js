@@ -21,6 +21,7 @@ import Dashboard from "./Pages/Dashboard/Dashboard"
 import Cart from "./Pages/Cart/Cart"
 import Import from "./Pages/Import/Import"
 import EditProfile from "./Pages/Editprofile/EditProfile"
+import Panel from "./Pages/Panel/Panel"
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/cart" component={Cart}  />
           <Route path="/import" component={Import}  />
           <Route path="/editprofile" component={EditProfile}  />
+          <Route path="/panel" component={Panel} />
           <Route component={Error} />
           </Switch>
           <Footer />

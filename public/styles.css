@@ -4,7 +4,7 @@ html,body{
 /* Header */
 .current {
     border-bottom: 4px solid white;
-  }1
+  }
 .header {
     background-color: #00d2ff;
     background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
@@ -527,3 +527,31 @@ hr {
 .error-actions {margin-top:15px;margin-bottom:15px;}
 .error-actions .btn { margin-right:10px; }
 /* End oF Error 404  */
+
+
+
+/* Panel */
+.panel{
+    max-height: 80vh;
+    padding: 1%;
+    overflow-y: scroll;
+    border: 1px solid #ede2c1;
+}
+
+.heading{
+    background-color: #ede2c1;
+    color:#474239;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: inherit;
+    font-size: small;
+}
+
+.rows{
+    font-family: 'sans-serif';
+    font-size: 13px;
+}
+
+.rows td{
+    text-align: center;
+}
