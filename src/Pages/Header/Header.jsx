@@ -3,13 +3,7 @@ import React from "react";
 function Header(){
     return(
         <>
-        <div className="container">              
-            <div className="row">
-                <div className="col-md-4" style={{textAlign:"center"}}> email@address.com +91-98765 43210 </div>
-                <div className="col-md-4"></div>
-                <div className="col-md-4 " style={{textAlign:"center"}}><a href="/login">Login</a></div>
-            </div>
-        </div>
+
 
 <header className="header sticky-top">
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
@@ -26,7 +20,10 @@ function Header(){
                     <li className="nav-item"><a className="nav-link " href="Blogs">Blogs</a></li>
                     <li className="nav-item"><a className="nav-link" href="contact">Contact</a></li>
                     <li className="nav-item"><a className="nav-link " href="about">About</a></li>
-                </ul>
+                    <li className="nav-item"><a className="nav-link "href="/login">Login</a></li>
+                
+                
+                    </ul>
             </div>
         </div>
     </nav>
